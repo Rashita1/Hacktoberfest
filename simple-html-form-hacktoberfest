@@ -10,7 +10,6 @@
          <form action="Login" method="GET">
            <input type="email" class="form-control input-sm" name="email" placeholder="Enter e-mail ID" required>
            <input type="password" class="form-control input-sm" name="password" placeholder="Enter password" required>
-           <input type="submit" value="Login" class="btn btn-primary btn-xs"><br><br>
            </form>
     </body>
 </html>
