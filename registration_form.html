@@ -3,19 +3,28 @@
       <head>
             <title> Registration Form </title>
       </head>
+      <style>
+         .container{
+            border: 1px solid #15171D;
+            width: 25%;
+            padding: 1.2rem;
+         }
+      </style>
       <body>
+         <div class="container">
          <h2>Registration Form</h2>
-         <form action="/register">
-            <label for="firstname">First name :</label>
-            <input type="text" id="firstname" name="firstname">
-            <br><br>
-            <label for="lastname">Last name :</label>
-            <input type="text" id="lastname" name="lastname">
-	<br><br>
-	<label for="email">Email :</label>
-	<input type="email" id="email" name="email">
-	<br><br>
-	<input type="submit" value="Submit">
-         </form>
+            <form action="/register" >
+               <label for="firstname">First name :</label>
+               <input type="text" id="firstname" name="firstname" placeholder="Firstname">
+               <br><br>
+               <label for="lastname">Last name :</label>
+               <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+               <br><br>
+               <label for="email">Email :</label>
+               <input type="email" id="email" name="email" placeholder="Email">
+               <br><br>
+               <input type="submit" value="Submit">
+            </form>
+         </div>
       </body>
 </html>
